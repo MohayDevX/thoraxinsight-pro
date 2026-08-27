@@ -7,9 +7,11 @@
 ![AI Model](https://img.shields.io/badge/Model-DenseNet121-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-### 🔴 Live Demo: [Your Streamlit Link Will Be Here Soon]
+### 🔴 Live Demo: https://thoraxinsight-pro-aa3pxy58ewy47zrrc5wfga.streamlit.app
 
----
+📱 Scan to Try:
+
+![QR](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://thoraxinsight-pro-aa3pxy58ewy47zrrc5wfga.streamlit.app)
 
 ## 📋 Overview
 **ThoraxInsight Pro** is an end-to-end AI platform designed to assist radiologists in detecting thoracic pathologies from chest X-rays. 
