@@ -4,5 +4,5 @@ numpy
 Pillow
 torch
 torchxrayvision
-opencv-python
+opencv-python-headless
 fpdf2
