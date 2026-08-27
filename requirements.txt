@@ -1,0 +1,8 @@
+streamlit
+pydicom
+numpy
+Pillow
+torch
+torchxrayvision
+opencv-python
+fpdf2
