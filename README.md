@@ -32,13 +32,7 @@ In many hospitals, especially in low-resource areas, there is a shortage of expe
 
 ## 🧠 How It Works
 
-```mermaid
-graph LR
-A[Upload X-Ray] --> B[Preprocessing & Normalization]
-B --> C[DenseNet121 Feature Extraction]
-C --> D[Pathology Classification - 18 diseases]
-C --> E[Grad-CAM - Localization Heatmap]
-D & E --> F[Final Report + PDF]
+The system takes X-Ray -> Preprocesses it -> Extracts features with DenseNet121 -> Classifies 18 diseases and generates a heatmap -> Creates final PDF report
 
 ## 🛠️ Tech Stack
 *   **Frontend:** Streamlit
