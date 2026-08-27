@@ -9,18 +9,28 @@ from fpdf import FPDF
 import datetime
 
 # --- Page Config ---
-st.set_page_config(
-    page_title="ThoraxInsight Pro",
-    page_icon="🩻",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
+# --- Premium Medical UI ---
 st.markdown("""
 <style>
- .main-title { font-size: 42px; font-weight: 800; color: #FAFAFA; }
- .sub-title { font-size: 16px; color: #9CA3AF; margin-top: -10px; margin-bottom: 20px; }
+    .stApp { background-color: #0a192f; }
+    [data-testid="stSidebar"] { background-color: #112240; }
+    h1, h2, h3 { color: #64ffda !important; }
+    .stButton>button {
+        background-color: #64ffda;
+        color: #0a192f;
+        border-radius: 10px;
+        font-weight: bold;
+        width: 100%;
+    }
+    .stButton>button:hover {
+        background-color: #ffffff;
+        color: #0a192f;
+    }
 </style>
+<div style="text-align:center; padding: 20px 0;">
+    <h1 style="font-size: 42px; margin-bottom:0;">🫁 ThoraxInsight Pro</h1>
+    <p style="color:#8892b0; font-size:18px;">AI-Powered Clinical Decision Support | V3.2 Premium</p>
+</div>
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="main-title">ThoraxInsight Pro</div>', unsafe_allow_html=True)
